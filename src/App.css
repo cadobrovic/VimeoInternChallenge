@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +19,30 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+.monsoon-container {
+  height: 400px;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.monsoon-text {
+  margin-left: 20px;
+}
+
+.beams-container {
+  height: 400px;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(65, 188, 219);
+}
+
+.beams-text {
+  margin-right: 20px;
 }
