@@ -8,14 +8,15 @@ function App() {
       <div className="monsoon-container">
         <div className="monsoon-content">
           <div className="monsoon-text">
-            <h2>Monsoon III</h2>
-            <p>
+            <h2 className="monsoon-head">MONSOON III</h2>
+            <p className="monsoon-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
               eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ultrices dui sapien eget mi. Vulputate mi sit amet mauris. 
               Orci sagittis eu volutpat odio facilisis. Sapien nec sagittis 
-              aliquam malesuada bibendum arcu vitae elementum curabitur. In 
-              iaculis nunc sed augue lacus viverra. 
+              aliquam curabitur. Vulputate mi sit amet mauris. 
+              Orci sagittis eu volutpat odio facilisis. Sapien nec 
+              curabitur. 
             </p>
           </div>
           <img 
@@ -34,8 +35,8 @@ function App() {
           <div className="beams-content">
 
             <div className="beams-text">
-              <h2>Beams</h2>
-              <p>
+              <h2 className="bottom-head">Beams</h2>
+              <p className="bottom-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ultrices dui sapien eget mi. Vulputate mi sit amet mauris. 
@@ -60,8 +61,8 @@ function App() {
 
             
             <div className="move2-text">
-              <h2>Move 2</h2>
-              <p>
+              <h2 className="bottom-head">Move 2</h2>
+              <p className="bottom-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ultrices dui sapien eget mi. Vulputate mi sit amet mauris. 
