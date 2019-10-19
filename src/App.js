@@ -39,7 +39,19 @@ function App() {
       </div>
 
       <div className="move2-container">
-
+        <img src="https://i.vimeocdn.com/video/590587169_530x315.jpg"/>
+        <div className="move2-text">
+          <h2>Move 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ultrices dui sapien eget mi. Vulputate mi sit amet mauris. 
+            Orci sagittis eu volutpat odio facilisis. Sapien nec sagittis 
+            aliquam malesuada bibendum arcu vitae elementum curabitur. In 
+            iaculis nunc sed augue lacus viverra. Leo urna molestie at 
+            elementum eu facilisis sed odio. Dui id ornare arcu odio.
+          </p>
+        </div>
       </div>
     </div>
   );

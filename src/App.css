@@ -46,3 +46,16 @@
 .beams-text {
   margin-right: 20px;
 }
+
+.move2-container {
+  height: 400px;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 87, 30);
+}
+
+.move2-text {
+  margin-left: 20px;
+}
