@@ -35,7 +35,7 @@ function App() {
           <div className="beams-content">
 
             <div className="beams-text">
-              <h2 className="bottom-head">Beams</h2>
+              <h2 className="bottom-head">BEAMS</h2>
               <p className="bottom-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
