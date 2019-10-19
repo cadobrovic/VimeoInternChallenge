@@ -7,8 +7,6 @@ function App() {
     <div className="container">
       <div className="monsoon-container">
         <div className="monsoon-content">
-
-          <img src="https://i.vimeocdn.com/video/595198868_505x160.jpg"/>
           <div className="monsoon-text">
             <h2>Monsoon III</h2>
             <p>
@@ -20,6 +18,10 @@ function App() {
               iaculis nunc sed augue lacus viverra. 
             </p>
           </div>
+          <img 
+            className="monsoon-img"
+            src="https://i.vimeocdn.com/video/595198868_505x160.jpg"
+          />
 
         </div>
         
@@ -56,10 +58,7 @@ function App() {
           
           <div className="move2-content">
 
-            <img
-              className="move2-img" 
-              src="https://i.vimeocdn.com/video/590587169_530x315.jpg"
-            />
+            
             <div className="move2-text">
               <h2>Move 2</h2>
               <p>
@@ -70,6 +69,10 @@ function App() {
                 aliquam malesuada bibendum arcu vitae elementum curabitur. 
               </p>
             </div>
+            <img
+              className="move2-img" 
+              src="https://i.vimeocdn.com/video/590587169_530x315.jpg"
+            />
 
           </div>
           

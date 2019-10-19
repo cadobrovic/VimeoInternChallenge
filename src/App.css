@@ -36,13 +36,17 @@
   .monsoon-content {
     width: 1000px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
   }
   
   .monsoon-text {
     margin-left: 20px;
+  }
+
+  .monsoon-img {
+    width: 500px;
   }
   
   .beams-container {
@@ -83,7 +87,7 @@
   .move2-content {
     width: 1000px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
   }
@@ -98,7 +102,6 @@
   
   .bottom-container {
     height: 800px;
-    padding: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,14 +110,31 @@
   }
 }
 
+
+
+
+
+/* Tablet Size  */
+
+
+
 @media screen and (max-width: 1024px) {
   .monsoon-container {
-    height: 400px;
-    padding: 150px;
+    height: 600px;
+    /* padding: 150px; */
+    /* margin-bottom: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(226, 86, 43);
+  }
+
+  .monsoon-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .monsoon-text {
@@ -123,34 +143,55 @@
   
   .beams-container {
     /* height: 400px; */
-    padding-left: 150px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(65, 188, 219);
   }
+
+  .beams-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   .beams-text {
     margin-right: 20px;
   }
+
+  .beams-img {
+    width: 500px;
+  }
   
   .move2-container {
     /* height: 400px; */
-    padding-left: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(233, 87, 30);
   }
+
+  .move2-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   .move2-text {
     margin-left: 20px;
   }
+
+  .move2-img {
+    width: 500px;
+  }
   
   .bottom-container {
     height: 800px;
-    padding: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
