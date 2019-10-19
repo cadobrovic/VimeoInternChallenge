@@ -35,8 +35,9 @@
 }
 
 .beams-container {
-  height: 400px;
-  padding: 150px;
+  /* height: 400px; */
+  padding-left: 150px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,8 +49,8 @@
 }
 
 .move2-container {
-  height: 400px;
-  padding: 150px;
+  /* height: 400px; */
+  padding-left: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,4 +59,14 @@
 
 .move2-text {
   margin-left: 20px;
+}
+
+.bottom-container {
+  height: 800px;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 233, 30);
 }
