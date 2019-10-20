@@ -1,5 +1,6 @@
 .carousel {
-    background-color: #585858;
+    /* background-color: #383838; */
+    position: relative;
 }
 
 /* .carousel .row {
@@ -33,12 +34,21 @@
     left: 93vw;
 }
 
+.carousel .slide-wrap {
+    display: flex;
+    width: 500%;
+    position: absolute;
+    transition: margin-left 300ms /*cubic-bezier(0.455, 0.03, 0.515, 0.955)*/;
+}
+
 
 .carousel .slide {
     position: relative;
+    display: inline-block;
     overflow: hidden;
-    transition: all 0.3s;
-    touch-action: pan-x;
+    width: 100%;
+    /* transition: all 0.3s;
+    touch-action: pan-x; */
 }
 
 .carousel .slidebg {
@@ -58,7 +68,7 @@
     top: 0;
     height:600px;
     width: 100%;
-    opacity: .2;
+    opacity: .4;
 }
 
 .carousel .content {
