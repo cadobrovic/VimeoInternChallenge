@@ -7,7 +7,7 @@ const data = {
         "desc": "Raised on hip-hop and foster care, defiant city kid Ricky gets a fresh start in the New Zealand countryside. From the director of What We Do In The Shadows.",
         "picture": "images/hunt.jpg",
         "image": "117162",
-        "color": "3298DA",
+        "color": "0F3248",
         "buy": "85597",
         "watch": "182450021",
         
@@ -20,7 +20,7 @@ const data = {
         "desc": "A Swiss family takes a ski vacation and runs into trouble when the father, the titualr decent man, finds himself in a series of moral quandries.",
         "picture": "images/nichts.jpg",  
         "image": "112546",
-        "color": "3298DA",
+        "color": "0B476E",
         "buy": "82485",
         "watch": "178166421",
     },

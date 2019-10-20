@@ -68,7 +68,8 @@
     top: 0;
     height:600px;
     width: 100%;
-    opacity: .4;
+    opacity: .6;
+    
 }
 
 .carousel .content {
@@ -81,11 +82,12 @@
     color: white;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     touch-action: pan-y;
 }
 
 .carousel .text {
+    padding-top: 5rem;
     width: 100%;
 }
 
@@ -95,6 +97,7 @@
 
 .carousel .text p {
     display: none;
+    color: rgb(182, 182, 182);
 }
 
 .carousel .text .links {
