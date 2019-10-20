@@ -5,7 +5,7 @@ const data = {
         "index": 0,
         "title": "Hunt for the Wilderpeople",
         "blurb": "Raised on hip-hop and foster care, defiant city kid Ricky gets a fresh start in the New Zealand countryside. From the director of What We Do In The Shadows.",
-        "picture": "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property01.jpg",
+        "picture": "images/hunt.jpg",
     },
     {
         "_id": "593e9297ec4cca9c56bf61af",

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import data from './data.js';
+import Card from './Card.js';
 
 class App extends Component {
   constructor(props) {
@@ -87,6 +88,22 @@ class App extends Component {
             
           </div>
         </div>
+      <div className="slider">
+        <div className="slider-object" >
+          <div className="left-button">
+            <button>Left</button>
+          </div>
+          <div className="hidden-card"></div>
+          <div className="right-button">
+            <button>
+              Right
+            </button>
+          </div>
+        </div>
+
+        <Card data={this.state.properties[0]}/>
+      </div>
+      
       </div>
     );
   }
