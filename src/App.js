@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import data from './data.js';
 import Card from './Card.js';
+import Carousel from './Carousel.js';
 
 class App extends Component {
   constructor(props) {
@@ -107,7 +108,7 @@ class App extends Component {
             
           </div>
         </div>
-      <div className="slider">
+      {/* <div className="slider">
         <div className="slider-object" >
           <div className="left-button">
             <button onClick={() => {this.slideLeft()}}>
@@ -127,7 +128,9 @@ class App extends Component {
         }
       </div>
         
-      </div>
+      </div> */}
+
+      <Carousel />
       
       </div>
     );
