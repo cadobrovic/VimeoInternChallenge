@@ -57,32 +57,35 @@ class Carousel extends Component {
                         onClick={() => this.slideLeft()} 
                         href=""
                     >
-                        {/* <i className="fas fa-chevron-left  fa-3x"></i> */}
-                        Left
+                        <div className="chevron-left"></div>
                     </button>
                     
                     <button 
                         className="right pointer" 
                         onClick={() => this.slideRight()} 
                         href="">
-                            {/* <i className="fas fa-chevron-right fa-3x"></i> */}
-                            Right
+                            <div className="chevron-right"></div>
                     </button>
                 </div>
 
-                <div className="slide-wrap" style={{marginLeft: `-${this.state.position}%`}}>
-                {
-                    properties.map(property => 
-                    <Slide 
-                        image={property.image} 
-                        color={property.color} 
-                        title={property.title} 
-                        buy={property.buy}
-                        desc={property.desc}
-                        key={property._id} 
-                    />)
-                }
+                <div className="clip-1">
+                    <div className="slide-wrap" style={{marginLeft: `-${this.state.position}%`}}>
+                    {
+                        properties.map(property => 
+                        <Slide 
+                            image={property.image} 
+                            color={property.color} 
+                            buttonColor={property.buttonColor}
+                            title={property.title} 
+                            buy={property.buy}
+                            watch={property.watch}
+                            desc={property.desc}
+                            key={property._id} 
+                        />)
+                    }
+                    </div>
                 </div>
+                
 
                 {/* {this.state.imageState===0 && <Slide image="117162" color="3298DA" title="Hunt for the Wilderpeople" buy="85597" watch="182450021" desc="Raised on hip-hop and foster care, defiant city kid Ricky gets a fresh start in the New Zealand countryside. From the director of What We Do In The Shadows."/>}
                 {this.state.imageState===1 && <Slide image="112546" color="3298DA" title="Nichts passiert / A Decent Man" buy="82485" watch="178166421" desc="A Swiss family takes a ski vacation and runs into trouble when the father, the titular decent man, finds himself in a series of moral quandries."/>}

@@ -130,7 +130,11 @@ class App extends Component {
         
       </div> */}
 
-      <Carousel />
+      <div className="clip">
+        <Carousel />
+      </div>
+
+      
       
       </div>
     );
