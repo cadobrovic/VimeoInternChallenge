@@ -67,23 +67,23 @@ class Carousel extends Component {
                     </button>
                 </div>
 
-                <div className="clip-1">
-                    <div className="slide-wrap" style={{marginLeft: `-${this.state.position}%`}}>
-                    {
-                        properties.map(property => 
-                        <Slide 
-                            image={property.image} 
-                            color={property.color} 
-                            buttonColor={property.buttonColor}
-                            title={property.title} 
-                            buy={property.buy}
-                            watch={property.watch}
-                            desc={property.desc}
-                            key={property._id} 
-                        />)
-                    }
-                    </div>
+                
+                <div className="slide-wrap" style={{marginLeft: `-${this.state.position}%`}}>
+                {
+                    properties.map(property => 
+                    <Slide 
+                        image={property.image} 
+                        color={property.color} 
+                        buttonColor={property.buttonColor}
+                        title={property.title} 
+                        buy={property.buy}
+                        watch={property.watch}
+                        desc={property.desc}
+                        key={property._id} 
+                    />)
+                }
                 </div>
+                
             </div>
         );
     }

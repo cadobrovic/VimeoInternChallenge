@@ -110,7 +110,15 @@
 
 .carousel .text .links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.carousel .text .links .buy {
+    margin-right: 0.4rem;
+}
+
+.carousel .text .links .watch {
+    margin-left: 0.4rem;
 }
 
 .carousel .text a {
