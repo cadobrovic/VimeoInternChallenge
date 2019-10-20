@@ -6,12 +6,19 @@
         height: 500px;
         position: relative;
         /* width: 1000px; */
+        width: 100%;
+        display: inline-block;
+        
+        
     }
 
     .bg-image {
-        filter: blur(8px);
+        filter: blur(20px);
         /* Full height */
         height: 100%;
+
+        /* color: rgb(25, 37, 90) */
+        
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
@@ -32,7 +39,7 @@
 
     .content {
         padding-top: 3rem;
-        background-color: red;
+        /* background-color: red; */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -45,8 +52,16 @@
 
     .pic {
         width: 250px;
+        
     }
 
+    h3 {
+        color: white;
+    }
+
+    p {
+        color: rgb(179, 179, 179);
+    }
 
 
 

@@ -103,6 +103,22 @@
 
   .slider {
     position: relative;
+    border-width: 5px;
+    border-color: black;
+  }
+
+  .cards-slider-wrapper {
+    /* display: flex;
+    position: absolute; */
+    
+    display: flex;
+    width: 500%;
+    position: absolute;
+    transition: margin-left 300ms /*cubic-bezier(0.455, 0.03, 0.515, 0.955)*/;
+  }
+
+  .card {
+    /* flex: 1; */
   }
 
   .slider-object {

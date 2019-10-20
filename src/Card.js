@@ -10,13 +10,16 @@ class Card extends Component {
         const { picture, title, blurb } = this.props.data
         return(
             <div className="container">
-                <div className="bg-image" style={{backgroundImage: `url(${picture})` }}></div>
+                <div className="bg-image" style={{backgroundImage: `linear-gradient(
+          rgba(25, 37, 90, 0.7), 
+          rgba(25, 37, 90, 0.7)
+        ), url(${picture})`}}></div>
                 <div className="wrap">
                     {/* <button style={{marginRight: "10px;"}}>
                         Hello
                     </button> */}
                     <div className="content">
-                        <img className="pic" src={picture} />
+                        <img className="pic" src={picture}/>
                         <div className="info">
                             <h3>{title}</h3>
                             <p>{blurb}</p>

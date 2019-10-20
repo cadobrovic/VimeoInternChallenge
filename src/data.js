@@ -12,28 +12,28 @@ const data = {
         "index": 1,
         "title": "Nichts passiert / A Decent Man",
         "blurb": "A Swiss family takes a ski vacation and runs into trouble when the father, the titualr decent man, finds himself in a series of moral quandries.",
-        "picture": "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property02.jpg",  
+        "picture": "images/nichts.jpg",  
     },
     {
         "_id": "593e929773c71925e5d7c11c",
         "index": 2,
         "title": "Vice Versa",
         "blurb": "Come along with the Good Company crew as they travel throughout the US, Japan, BC and Quebec to showcase skiing in the best way possible.",
-        "picture": "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property02.jpg",  
+        "picture": "images/vice.jpg",  
     },
     {
         "_id": "593e92973d4d15eedb129aee",
         "index": 3,
         "title": "The Fourth Phase",
         "blurb": "From the creators of The Art of FLIGHT, Red Bull Media House presents THE FOURTH PHASE, a snowboarding epic starring iconic athlete Travis Rice.",
-        "picture": "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property02.jpg",  
+        "picture": "images/fourth.jpg",  
     },
     {
         "_id": "593e929728b7f8543b7907e1",
         "index": 4,
         "title": "Full Moon",
         "blurb": "Be inspired by women who push boundaries. FULL MOON showcases the legends, current icons and future prodigies of this ever-evolving lifestyle sport.",
-        "picture": "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property02.jpg",  
+        "picture": "images/full.jpg",  
     }
     ]
 }
