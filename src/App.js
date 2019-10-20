@@ -1,37 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import data from './data.js';
-import Card from './Card.js';
 import Carousel from './Carousel.js';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      properties: data.properties,
-      property: data.properties[0],
-      position: 0,
-    }
-  }
-
-  slideRight = () => {
-    if (this.state.position < 400) {
-      this.setState({
-        position: this.state.position + 100
-      });
-    }
-  }
-
-  slideLeft = () => {
-    if (this.state.position >= 100) {
-      this.setState({
-        position: this.state.position - 100
-      });
-    }
   }
 
   render() {
-    const { properties, property } = this.state;
     return (
       <div className="container">
         <div className="monsoon-container">
@@ -108,34 +84,11 @@ class App extends Component {
             
           </div>
         </div>
-      {/* <div className="slider">
-        <div className="slider-object" >
-          <div className="left-button">
-            <button onClick={() => {this.slideLeft()}}>
-              Left
-            </button>
-          </div>
-          <div className="hidden-card"></div>
-          <div className="right-button">
-            <button onClick={() => {this.slideRight()}}>
-              Right
-            </button>
-          </div>
+
+        <div className="clip">
+          <Carousel />
         </div>
-      <div className="cards-slider-wrapper" style={{marginLeft: `-${this.state.position}%`}}>
-        {
-          properties.map(property => <Card className="card" key={property._id} data={property} />)
-        }
-      </div>
-        
-      </div> */}
 
-      <div className="clip">
-        <Carousel />
-      </div>
-
-      
-      
       </div>
     );
   }
