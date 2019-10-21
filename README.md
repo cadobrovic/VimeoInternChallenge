@@ -1,3 +1,46 @@
+# Vimeo Intern Challenge
+
+Applicant: Carl Dobrovic, Columbia University '21
+
+## About This Project
+
+This project aims to mimic the video examples given in the
+Vimeo Frontend Internship coding assessment. I developed
+it in React with the help of the create-react-app initializer.
+I sought to implement modular components that are easy
+to bring in and out of the project, e.g. the carousel
+easily plugs into the bottom of the page. 
+
+I used media queries to make my CSS responsive to various
+widths, settling on 768px and 1024px as the common widths
+I found matched closest to the resizing behavior in the
+videos. 
+
+To get the carousel to look the way I wanted, I decided to
+line up the slide components with an inline-block display
+and then slide the div left and right with the button
+clicks, clipping to the window. 
+
+I ran the project on my and then a friend's Macbook with the 
+instructions at the end.
+
+I had fun putting this together at a school hackathon this weekend
+and hope you see the effort I put into getting every detail right.
+
+Thank you for the opportunity to show Vimeo what I can do!
+
+
+Here's the build and run instructions:
+1. `cd` into the root of the project and run `npm install`. This should install React
+and a couple other packages that come with it.
+2. Run `npm start` (or `yarn start` if you use yarn) to run the developer build.
+3. Run `npm build` to build the site.
+4. I ran the production build locally with the serve package using `serve -s build`.
+
+------------------------------------------------------------------------------------
+
+### From create-react-app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
