@@ -6,25 +6,11 @@ import data from './data.js';
 class Carousel extends Component {
     constructor(props) {
         super(props);
-        this.setImageState = this.setImageState.bind(this);
         this.state = {
             imageState:0,
             properties: data.properties,
             property: data.properties[0],
             position: 0,
-        }
-    }
-
-    setImageState(n) {
-        if(this.state.imageState+n > 4) {
-            this.setState({imageState:0})
-
-        } else if (this.state.imageState+n < 0) {
-            this.setState({imageState:4})
-        } else {
-        this.setState((prevState => ({
-            imageState: prevState.imageState+n
-        })))
         }
     }
 
@@ -49,7 +35,7 @@ class Carousel extends Component {
     render() {
         const { properties } = this.state;
         return (
-            <div className="carousel"  onTouchStart={(e) => console.log(e.touches[0].clientX)} onTouchMove={(e) => console.log(e.touches)}>
+            <div className="carousel">
                 <div className="row">
                     <button 
                         className="left pointer" 
