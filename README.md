@@ -34,7 +34,7 @@ Here's the build and run instructions:
 1. `cd` into the root of the project and run `npm install`. This should install React
 and a couple other packages that come with it.
 2. Run `npm start` (or `yarn start` if you use yarn) to run the developer build.
-3. Run `npm build` to build the site.
+3. Run `npm build` (`yarn build`) to build the site.
 4. I ran the production build locally with the serve package using `serve -s build`.
 
 ------------------------------------------------------------------------------------
