@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Slide from './Slide';
+import Card from './Card';
 import './Carousel.css';
 import data from './data.js';
 
@@ -68,10 +68,10 @@ class Carousel extends Component {
                 </div>
 
                 
-                <div className="slide-wrap" style={{marginLeft: `-${this.state.position}%`}}>
+                <div className="card-wrap" style={{marginLeft: `-${this.state.position}%`}}>
                 {
                     properties.map(property => 
-                    <Slide 
+                    <Card 
                         image={property.image} 
                         color={property.color} 
                         buttonColor={property.buttonColor}

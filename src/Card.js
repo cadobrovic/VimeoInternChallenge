@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Slide extends Component {
+class Card extends Component {
     render() {
         var divStyle={
            backgroundImage: 'url(https://i.vimeocdn.com/vod_poster/' + this.props.image + '_310x459.jpg)',
@@ -12,9 +12,9 @@ class Slide extends Component {
             backgroundColor: '#'+this.props.buttonColor
         }
         return (
-            <div className="slide">
-                <div className="slidebg" style={divStyle}></div>
-                <div className="slidecolor" style={colorStyle}></div>
+            <div className="card">
+                <div className="cardbg" style={divStyle}></div>
+                <div className="cardcolor" style={colorStyle}></div>
                 <div className="content">
                     <div className="image">
                         <img 
@@ -51,4 +51,4 @@ class Slide extends Component {
     }
 }
 
-export default Slide;
+export default Card;

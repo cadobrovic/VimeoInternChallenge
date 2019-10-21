@@ -45,7 +45,7 @@
     right: 5vw;
 }
 
-.carousel .slide-wrap {
+.carousel .card-wrap {
     display: flex;
     width: 500%;
     position: absolute;
@@ -53,14 +53,14 @@
 }
 
 
-.carousel .slide {
+.carousel .card {
     position: relative;
     display: inline-block;
     overflow: hidden;
     width: 100%;
 }
 
-.carousel .slidebg {
+.carousel .cardbg {
     display: block;
     height: 600px;
     filter: blur(10px);
@@ -72,7 +72,7 @@
     transition: all .2s ease-out;
 }
 
-.carousel .slidecolor {
+.carousel .cardcolor {
     position: absolute;
     top: 0;
     height:600px;
